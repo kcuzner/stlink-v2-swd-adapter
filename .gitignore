@@ -5,7 +5,6 @@
 *.net
 *.kicad_pcb-bak
 $*
-gerber
 *.lst
 *.csv
 *.xml
