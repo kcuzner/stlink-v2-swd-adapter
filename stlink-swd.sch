@@ -94,6 +94,7 @@ F 0 "J1" H 5500 3617 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 5500 3526 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 5450 3300 50  0001 C CNN
 F 3 "~" H 5450 3300 50  0001 C CNN
+F 4 "S2012EC-03-ND" H 5450 3300 50  0001 C CNN "Part No."
 	1    5450 3300
 	-1   0    0    -1  
 $EndComp
@@ -164,6 +165,7 @@ F 0 "J4" H 5420 4117 50  0000 C CNN
 F 1 "Conn_01x02" H 5420 4026 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5500 3900 50  0001 C CNN
 F 3 "~" H 5500 3900 50  0001 C CNN
+F 4 "S1012EC-02-ND" H 5500 3900 50  0001 C CNN "Part No."
 	1    5500 3900
 	-1   0    0    -1  
 $EndComp
@@ -237,6 +239,7 @@ F 0 "D1" V 6238 4233 50  0000 R CNN
 F 1 "LED" V 6147 4233 50  0000 R CNN
 F 2 "LEDs:LED_0603" H 6200 4350 50  0001 C CNN
 F 3 "~" H 6200 4350 50  0001 C CNN
+F 4 "732-4980-1-ND" H 6200 4350 50  0001 C CNN "Part No."
 	1    6200 4350
 	0    -1   -1   0   
 $EndComp
@@ -306,4 +309,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 3300 5150 3300
 Connection ~ 4550 3400
+Text Notes 5050 2850 0    50   ~ 0
+Jumper: S9337-ND
 $EndSCHEMATC
